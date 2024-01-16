@@ -11,7 +11,7 @@ body {
 
 /* Background pattern for the header */
 header {
-    background-image: url("D:/myprograms/webdev/assets/coverimage.jpeg");
+    background-image: url('coverimage.jpeg');
     background-size: cover;
     background-position: center;
     background-color: #d5cea3; /* Light beige header background */
