@@ -3,8 +3,8 @@ def add_numbers(num1, num2):
     return num1 + num2
 
 # Input numbers
-num1 = float(input("Enter the first number: "))
-num2 = float(input("Enter the second number: "))
+num1 = 35
+num2 = 65
 
 # Call the function and display the result
 result = add_numbers(num1, num2)
