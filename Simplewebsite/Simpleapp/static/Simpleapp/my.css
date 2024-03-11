@@ -1,0 +1,64 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c7e290;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container styles */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Header styles */
+header {
+    background: #ff6f61; /* Coral */
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    color: #000;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* Main content styles */
+main {
+    background: #ffd117; /* Lemon */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Footer styles */
+footer {
+    background: #3498db; /* Dodger Blue */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
