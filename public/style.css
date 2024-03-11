@@ -1,0 +1,140 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1a120b; /* Dark brown background */
+    color: #3c2a21; /* Light brown text color */
+}
+
+/* Background pattern for the header */
+header {
+    background-image: url('coverimage.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-color: #d5cea3; /* Light beige header background */
+    color: #e5e5cb; /* Light beige text color */
+    text-align: center;
+    padding: 80px 20px;
+    transition: background-color 0.5s ease;
+    
+}
+
+header:hover {
+    background-color: #3c2a21; /* Slightly darker brown on hover */
+}
+
+/* Heading and text styles */
+h1 {
+    margin-right: 75%;
+    background-color: #ffffff;
+    font-size: 2.5em;
+    color: #a29330; /* Light beige heading color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Text shadow for decoration */
+}
+h4{
+margin-right: 75%;
+background-color: #ffffff;
+font-size: 1.2em;
+color: #a29330; /* Light beige heading color */
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    
+    font-size: 1.2em;
+    color: #ac8f80; /* Dark brown text color */
+   
+}
+
+/* Navigation styles */
+nav {
+    margin-top: 20px;
+    border-radius: 15px; /* Rounded border for the navbar */
+    overflow: hidden; /* Hide overflow content */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #d5cea3; /* Light beige background for navbar items */
+    margin: 0;
+    border: 2px solid #e5e5cb; /* Light beige border color for navbar */
+}
+
+nav li {
+    margin: 0;
+    border-right: 2px solid #e5e5cb; /* Light beige border between navbar items */
+}
+
+nav li:last-child {
+    border-right: none; /* Remove border for the last navbar item */
+}
+
+nav a {
+    color: #3c2a21; /* Dark brown text color for navbar items */
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 15px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #e5e5cb; /* Lighter beige on hover */
+}
+
+/* Section styles */
+section {
+    margin: 20px;
+    background-color: #1a120b; /* Dark brown section background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    position: relative;
+}
+
+section:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Subheading styles */
+h2 {
+    color:#ac8f80;/* Dark brown subheadings */
+}
+
+/* Project item styles */
+.project {
+    border: 1px solid #d5cea3; /* Light beige border for projects */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    border-color: #e5e5cb; /* Lighter beige on hover */
+}
+
+/* Button styles */
+button {
+    background-color: #1a120b; /* Dark brown button color */
+    color: #e5e5cb; /* Light beige text color for buttons */
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3c2a21; /* Slightly darker brown on hover */
+}
+
+/* Add more styles as needed */
